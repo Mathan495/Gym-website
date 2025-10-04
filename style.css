@@ -253,7 +253,14 @@ body {
     }
     
 }
-
+@media all and (max-width:500px){
+    .title-logo{
+        flex-direction: column;
+    }
+    .title-logo img{
+        width: 260px;
+    }
+}
 .about {
     margin-top: 50px;
     max-width: 100%;
@@ -827,4 +834,5 @@ body {
     color: blue;
     text-decoration: underline;
 }
+
 
