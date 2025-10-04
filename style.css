@@ -132,7 +132,7 @@ body {
 
 }
 
-@media all and (max-width: 850px) and (min-width:480px) {
+@media all and (max-width: 850px) and (min-width:400px) {
     .middle nav ul a {
         flex-direction: column;
         display: block;
@@ -235,7 +235,7 @@ body {
         padding-left: px;
     }
 } */
-@media all and (max-width: 880px) and (min-width:480px) {
+@media all and (max-width: 880px) and (min-width:400px) {
     .title-logo {
         display: flex;
         flex-direction: column;
@@ -827,3 +827,4 @@ body {
     color: blue;
     text-decoration: underline;
 }
+
